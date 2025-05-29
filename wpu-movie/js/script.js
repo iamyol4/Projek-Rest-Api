@@ -1,3 +1,4 @@
+function searchMovies(){
 $('#search-button').on('click', function (){
     $.ajax({
         url: 'http://omdbapi.com',
@@ -22,11 +23,24 @@ $('#search-button').on('click', function (){
                     </div>
                   </div>`);
 
-                });   
-            } else{
-                $('#Movie-list').html('<h1>Movie Not Found!')
-            }
-            }
+                });
+                $('#search-input').val('');
+   
+            } else {
+                $('#Movie-list').html(`<div class="col-12 text-center">
+                <h1 class = "text-center">`+ result.Error +`</h1></div>
+                `); 
+           }
+        }
     });
+
+   $('#search-button').on('click', function (){
+    searchMovies();
 });
 
+$('#search-input').on('keyup', function (e){
+    if(e.keyCode === 13){
+        searchMovies();
+    }
+});
+}
