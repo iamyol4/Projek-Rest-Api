@@ -1,0 +1,30 @@
+[
+{
+    "nama" : "Yola",
+    "umur" : 21,
+    "nim" : "2217020134",
+    "lulus" : true,
+    "hobby" : [
+        "coding", 
+        "gaming"
+    ],
+    "pembimbing" : {
+        "pembimbing1": "Doddy Ferdiansyah",
+        "pembimbing2": "Erik Doank"
+    }
+},
+{
+    "nama" : "Yola",
+    "umur" : 21,
+    "nim" : "2217020134",
+    "lulus" : true,
+    "hobby" : [
+        "coding", 
+        "gaming"
+    ],
+    "pembimbing" : {
+        "pembimbing1": "Doddy Ferdiansyah",
+        "pembimbing2": "Erik Doank"
+    }
+}
+]
