@@ -1,3 +1,17 @@
+<?php
+$curl = curl_init();
+curl_setopt($curl, CURLOPT_URL,'https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UCLkAepWjdylmXSltofFvsYQ&key=AIzaSyCEGRJzAkZfn_oQiwbSNtRXW4G9yMacR68');
+curl_setopt($curl, CURLOPT_RETURNTRANSFER,1);
+ $result =curl_exec($curl);
+ curl_close($curl);
+
+
+ $result = json_decode($result, true);
+ var_dump($result);
+
+
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -87,7 +101,7 @@
 <div class="row mt-3 pb-3">
 <div class ="col">
   <div class= "embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item"src="https://www.youtobe.com/embed/Tv0FqREy7A8?rel=0"allowfullscreen></iframe>
+    <iframe class="embed-responsive-item"src="https://www.youtube.com/embed/Tv0FqREy7A8?rel=0"allowfullscreen></iframe>
          </div>
         </div>
        </div>
