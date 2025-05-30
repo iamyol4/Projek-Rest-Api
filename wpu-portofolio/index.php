@@ -10,7 +10,8 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER,1);
  var_dump($result);
 
  $youtubeProfilePic = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
-
+ $channelName = $result['items'][0]['snippet']['title'];
+ $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 ?>
 <!doctype html>
 <html lang="en">
@@ -95,8 +96,8 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER,1);
       <img src="<?= $youtubeProfilePic;?>" width="150" class="rounded-circle img-thubnail">
 </div>
 <div class="col-md-8">
-  <h5>Web Programming UIN</h5>
-  <p> 10000 Subscribers.</p>
+  <h5><?= $channelName;?>
+  <p> <?= $subscriber;?> Subscribers.</p>
 </div>
 <div class="row mt-3 pb-3">
 <div class ="col">
