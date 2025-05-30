@@ -10,4 +10,9 @@ require APPPATH . 'libraries/Format.php';
 class Mahasiswa extends REST_controler;
 {
   public function  index_get()
+
+  {
+    $mahasiswa = $this->Mahasiswa_model->getmahasiswa();
+
+  }
 }
