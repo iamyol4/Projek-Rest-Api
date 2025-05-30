@@ -9,7 +9,7 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER,1);
  $result = json_decode($result, true);
  var_dump($result);
 
-
+ $youtubeProfilePic = $result['items'][0]['snippet']['thumbnails']['medium']['url'];
 
 ?>
 <!doctype html>
@@ -92,7 +92,7 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER,1);
 <div class="col-md-5">
   <div class="row">
     <div class="col-md-4">
-      <img src="img/profile1.png" width="150" class="rounded-circle img-thubnail">
+      <img src="<?= $youtubeProfilePic;?>" width="150" class="rounded-circle img-thubnail">
 </div>
 <div class="col-md-8">
   <h5>Web Programming UIN</h5>
