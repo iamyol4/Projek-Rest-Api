@@ -48,7 +48,7 @@ $latestVideoId =$result['items'][0]['id']['videoId'];
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#home">Yola Sahrani</a>
+        <a class="navbar-brand" href="#home">My Portofolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -61,7 +61,10 @@ $latestVideoId =$result['items'][0]['id']['videoId'];
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">contact</a>
             </li>
           </ul>
         </div>
@@ -74,7 +77,7 @@ $latestVideoId =$result['items'][0]['id']['videoId'];
         <div class="text-center">
           <img src="img/profile1.png" class="rounded-circle img-thumbnail">
           <h1 class="display-4">Yola Sahrani</h1>
-          <h3 class="lead">Mahasiswa</h3>
+          <h3 class="lead">Student Of System Information</h3>
         </div>
       </div>
     </div>
@@ -90,10 +93,10 @@ $latestVideoId =$result['items'][0]['id']['videoId'];
         </div>
         <div class="row justify-content-center">
           <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
+            <p>Saya adalah mahasiswa Sistem Informasi yang sedang mengerjakan tugas tentang REST API. Dalam tugas ini, saya belajar bagaimana cara mengambil data dari internet melalui API, seperti menggunakan YouTube API . Saya juga mempelajari berbagai tools seperti Postman, serta ngoding menggunakan PHP dan CodeIgniter.</p>
           </div>
           <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
+            <p>Sekarang ini, saya cukup sering mengalami error, tapi justru dari situ saya jadi semakin paham bagaimana cara kerja backend dan integrasi antar sistem. Intinya, tugas ini memang cukup bikin pusing, tapi seru karena bisa langsung praktik hal-hal yang benar-benar berguna di dunia kerja nanti.</p>
           </div>
         </div>
       </div>
@@ -164,38 +167,9 @@ $latestVideoId =$result['items'][0]['id']['videoId'];
       <div class="container">
         <div class="row pt-4 mb-4">
           <div class="col text-center">
-            <h2>Portfolio</h2>
+            <h2>Project</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thumbs/2.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thumbs/3.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>   
-        </div>
-
         <div class="row">
           <div class="col-md mb-4">
             <div class="card">
@@ -204,13 +178,13 @@ $latestVideoId =$result['items'][0]['id']['videoId'];
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
-          </div> 
+          </div>
+
           <div class="col-md mb-4">
             <div class="card">
               <img class="card-img-top" src="img/thumbs/5.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                </p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
@@ -222,9 +196,8 @@ $latestVideoId =$result['items'][0]['id']['videoId'];
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
-          </div>
+          </div>   
         </div>
-      </div>
       <section class="social bg-light py-5">
     </section>
 
@@ -249,8 +222,8 @@ $latestVideoId =$result['items'][0]['id']['videoId'];
             
             <ul class="list-group mb-4">
               <li class="list-group-item"><h3>Location</h3></li>
-              <li class="list-group-item">My Office</li>
-              <li class="list-group-item">Jl. Setiabudhi No. 193, Bandung</li>
+              <li class="list-group-item">My Home</li>
+              <li class="list-group-item">Jl. Sungai bangek No. B.2, Padang</li>
               <li class="list-group-item">West Java, Indonesia</li>
             </ul>
           </div>

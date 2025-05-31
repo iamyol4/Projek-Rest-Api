@@ -13,6 +13,6 @@ class Mahasiswa extends REST_controler;
 
   {
     $mahasiswa = $this->Mahasiswa_model->getmahasiswa();
-
+    var_dump($mahasiswa);
   }
 }
